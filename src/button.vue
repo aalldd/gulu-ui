@@ -1,9 +1,7 @@
 <template>
   <div>
     <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
-      <svg v-if="icon" class="icon" aria-hidden="true">
-        <use :xlink:href="`#i-${icon}`"></use>
-      </svg>
+      <g-icon v-if="icon" :name="icon"></g-icon>
       <div class="content">
         <slot></slot>
       </div>
@@ -21,7 +19,7 @@ export default {
       type: String,
       default: 'left',
       //属性的检查器
-      validate(value){
+      validate(value) {
         return !(value !== 'left' || value !== 'right');
       }
     }
@@ -42,6 +40,7 @@ export default {
   line-height: var(--button-height);
   //不对齐就加这个
   vertical-align: top;
+
   &:hover {
     border-color: var(--border-color-hover);
   }
@@ -56,8 +55,8 @@ export default {
 
   > .icon {
     order: 1;
-    margin-right:.1em;
-    margin-left:0;
+    margin-right: .1em;
+    margin-left: 0;
   }
 
   > .content {
@@ -67,8 +66,8 @@ export default {
   &.icon-right {
     > .icon {
       order: 2;
-      margin-right:0;
-      margin-left:.1em;
+      margin-right: 0;
+      margin-left: .1em;
     }
 
     > .content {
