@@ -1,21 +1,5 @@
 <template>
   <div>
-    <!--  普通button-->
-    <button class="g-button">
-      <div class="content">
-        <slot></slot>
-      </div>
-    </button>
-    <!--  带icon的button-->
-    <button class="g-button">
-      <svg v-if="icon" class="icon" aria-hidden="true">
-        <use :xlink:href="`#i-${icon}`"></use>
-      </svg>
-      <div class="content">
-        <slot></slot>
-      </div>
-    </button>
-    <!--  控制icon的位置-->
     <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
       <svg v-if="icon" class="icon" aria-hidden="true">
         <use :xlink:href="`#i-${icon}`"></use>
@@ -35,7 +19,11 @@ export default {
     },
     iconPosition: {
       type: String,
-      default: 'left'
+      default: 'left',
+      //属性的检查器
+      validate(value){
+        return !(value !== 'left' || value !== 'right');
+      }
     }
   }
 }
