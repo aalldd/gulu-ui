@@ -7,35 +7,49 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>轱辘</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        html{
-            --button-height:32px;
-            --font-size:14px;
-            --button-bg:white;
-            --button-active-bg:#eee;
-            --border-raidus:4px;
-            --color:#999;
-            --border-color:#999;
-            --border-color-hover:#666;
+
+        html {
+            --button-height: 32px;
+            --font-size: 14px;
+            --button-bg: white;
+            --button-active-bg: #eee;
+            --border-raidus: 4px;
+            --color: #999;
+            --border-color: #999;
+            --border-color-hover: #666;
         }
-        #app{
+
+        #app {
             margin: 20px;
         }
-        body{
+
+        body {
             font-size: var(--font-size);
+        }
+    </style>
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
         }
     </style>
 </head>
 <body>
 <div id="app">
-    <g-button></g-button>
+    <g-button icon="setting" icon-position="right">
+        我爱js
+    </g-button>
 </div>
 
 <script src="./src/app.js"></script>
-
+<script src="//at.alicdn.com/t/font_2288767_klbawlro9b.js"></script>
 </body>
 </html>

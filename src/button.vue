@@ -1,8 +1,44 @@
 <template>
-  <button class="g-button">按钮</button>
+  <div>
+    <!--  普通button-->
+    <button class="g-button">
+      <div class="content">
+        <slot></slot>
+      </div>
+    </button>
+    <!--  带icon的button-->
+    <button class="g-button">
+      <svg v-if="icon" class="icon" aria-hidden="true">
+        <use :xlink:href="`#i-${icon}`"></use>
+      </svg>
+      <div class="content">
+        <slot></slot>
+      </div>
+    </button>
+    <!--  控制icon的位置-->
+    <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
+      <svg v-if="icon" class="icon" aria-hidden="true">
+        <use :xlink:href="`#i-${icon}`"></use>
+      </svg>
+      <div class="content">
+        <slot></slot>
+      </div>
+    </button>
+  </div>
 </template>
 <script>
-export default {}
+export default {
+  props: {
+    icon: {
+      type: String,
+      default: 'settings'
+    },
+    iconPosition: {
+      type: String,
+      default: 'left'
+    }
+  }
+}
 </script>
 <style lang="scss">
 .g-button {
@@ -12,7 +48,12 @@ export default {}
   border-radius: var(--border-raidus);
   border: 1px solid var(--border-color);
   background: var(--button-bg);
-
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: var(--button-height);
+  //不对齐就加这个
+  vertical-align: top;
   &:hover {
     border-color: var(--border-color-hover);
   }
@@ -23,6 +64,29 @@ export default {}
 
   &:focus {
     outline: none;
+  }
+
+  > .icon {
+    order: 1;
+    margin-right:.1em;
+    margin-left:0;
+  }
+
+  > .content {
+    order: 2;
+  }
+
+  &.icon-right {
+    > .icon {
+      order: 2;
+      margin-right:0;
+      margin-left:.1em;
+    }
+
+    > .content {
+      order: 1;
+    }
+
   }
 }
 </style>
