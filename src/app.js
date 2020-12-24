@@ -15,6 +15,8 @@ new Vue({
     }
 })
 import chai from 'chai'
+import spies from 'chai-spies'
+chai.use(spies)
 const expect=chai.expect
 //单元测试
 {
@@ -76,9 +78,10 @@ const expect=chai.expect
         }
     })
     gButton.$mount()
-    gButton.$on('click',()=>{
-        expect(1).to.eq(1)
-    })
+    let spy=chai.spy(()=>{})
+    gButton.$on('click',spy)
     let button=gButton.$el
     button.click()
+    //期待这个间谍被调用了
+    expect(spy).to.have.been.called()
 }
