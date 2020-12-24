@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90341506-cc1e-4278-b673-1bbecb1ec2e7" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1m2eMdB7aPZvVX5TrUD8Z1Swcoh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\jirengu\day30\gulu-demo" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90341506-cc1e-4278-b673-1bbecb1ec2e7" name="默认更改列表" comment="" />
+      <created>1608696068070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608696068070</updated>
+      <workItem from="1608696070722" duration="11019000" />
+      <workItem from="1608773211170" duration="12697000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交init vue">
+      <created>1608709730573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608709730573</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成按钮基本样式">
+      <created>1608711174508</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608711174508</updated>
+    </task>
+    <task id="LOCAL-00003" summary="安装parcel">
+      <created>1608711505412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608711505412</updated>
+    </task>
+    <task id="LOCAL-00004" summary="加入 parcel 将button组件改为单文件组件">
+      <created>1608712734463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608712734463</updated>
+    </task>
+    <task id="LOCAL-00005" summary="不小心把dist和cache上传了，现在删掉">
+      <created>1608712817573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608712817573</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加icon和icon position属性">
+      <created>1608717944106</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608717944106</updated>
+    </task>
+    <task id="LOCAL-00007" summary="验证iconPosition 为left或者right">
+      <created>1608718366045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608718366045</updated>
+    </task>
+    <task id="LOCAL-00008" summary="将svg代码整理到icon.vue">
+      <created>1608718762488</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608718762488</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加click事件">
+      <created>1608774597197</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608774597197</updated>
+    </task>
+    <task id="LOCAL-00010" summary="创建button group">
+      <created>1608775676208</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608775676208</updated>
+    </task>
+    <task id="LOCAL-00011" summary="检测子元素是不是g-button">
+      <created>1608776071152</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608776071152</updated>
+    </task>
+    <task id="LOCAL-00012" summary="第一个元素不需要margin-left">
+      <created>1608776246045</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608776246045</updated>
+    </task>
+    <task id="LOCAL-00013" summary="删除测试代码">
+      <created>1608776397037</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608776397037</updated>
+    </task>
+    <task id="LOCAL-00014" summary="安装chai">
+      <created>1608776994360</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608776994360</updated>
+    </task>
+    <task id="LOCAL-00015" summary="使用chai 添加了四个测试用例，第五个不会">
+      <created>1608778781418</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608778781418</updated>
+    </task>
+    <task id="LOCAL-00016" summary="使用chai.spy 监听回调函数">
+      <created>1608779079562</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608779079562</updated>
+    </task>
+    <task id="LOCAL-00017" summary="使用npm test 和npm dev-test自动测试">
+      <created>1608799825182</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608799825182</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交init vue" />
+    <MESSAGE value="完成按钮基本样式" />
+    <MESSAGE value="安装parcel" />
+    <MESSAGE value="加入 parcel 将button组件改为单文件组件" />
+    <MESSAGE value="不小心把dist和cache上传了，现在删掉" />
+    <MESSAGE value="添加icon和icon position属性" />
+    <MESSAGE value="验证iconPosition 为left或者right" />
+    <MESSAGE value="将svg代码整理到icon.vue" />
+    <MESSAGE value="添加click事件" />
+    <MESSAGE value="创建button group" />
+    <MESSAGE value="检测子元素是不是g-button" />
+    <MESSAGE value="第一个元素不需要margin-left" />
+    <MESSAGE value="删除测试代码" />
+    <MESSAGE value="安装chai" />
+    <MESSAGE value="使用chai 添加了四个测试用例，第五个不会" />
+    <MESSAGE value="使用chai.spy 监听回调函数" />
+    <MESSAGE value="使用npm test 和npm dev-test自动测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用npm test 和npm dev-test自动测试" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1045" y="4" key="CommitChangelistDialog2" timestamp="1608799824206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1045" y="4" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608799824206" />
+    <state x="926" y="168" key="SettingsEditor" timestamp="1608776289186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="926" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608776289186" />
+    <state x="1033" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608778786486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1033" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608778786486" />
+    <state x="1054" y="100" width="771" height="845" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608776380386">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1054" y="100" width="771" height="845" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608776380386" />
+    <state x="1107" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1608715613633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1107" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608715613633" />
+  </component>
+</project>
