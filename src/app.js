@@ -20,6 +20,7 @@ chai.use(spies)
 const expect=chai.expect
 //单元测试
 {
+    //测试按钮含有icon
     const Constructor=Vue.extend(Button)
     const button=new Constructor({
         propsData:{
@@ -36,6 +37,7 @@ const expect=chai.expect
     button.$destroy()
 }
 {
+    //测试按钮有loading
     const Constructor=Vue.extend(Button)
     const button=new Constructor({
         propsData:{
@@ -52,6 +54,7 @@ const expect=chai.expect
     button.$destroy()
 }
 {
+    //测试按钮icon的顺序是否正确
     const div=document.createElement('div')
     document.body.appendChild(div)
     const Constructor=Vue.extend(Button)
@@ -70,7 +73,7 @@ const expect=chai.expect
     button.$destroy()
 }
 {
-    //mock
+    //mock  测试按钮的点击事件
     const Constructor=Vue.extend(Button)
     const gButton=new Constructor({
         propsData:{
