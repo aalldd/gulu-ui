@@ -18,7 +18,9 @@
   display: inline-flex;
   .g-button{
     border-radius: 0;
-    margin:0 -1px;
+    &:not(:first-child){
+      margin-left: -1px;
+    }
     &:first-child{
       border-top-left-radius: var(--border-raidus);
       border-bottom-left-radius: var(--border-raidus);
