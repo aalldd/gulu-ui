@@ -1,5 +1,4 @@
 <template>
-  <div>
     <button @click="$emit('click')" class="g-button" :class="{[`icon-${iconPosition}`]:true}">
       <g-icon class="icon" v-if="icon && !loading" :name="icon"></g-icon>
       <g-icon class="loading icon" name="loading" v-if="loading"></g-icon>
@@ -7,7 +6,6 @@
         <slot></slot>
       </div>
     </button>
-  </div>
 </template>
 <script>
 export default {
