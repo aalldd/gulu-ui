@@ -2,9 +2,11 @@ import Vue from 'vue'
 import Button from './button'
 import Icon from './icon'
 import ButtonGroup from './button-group'
+import Input from './input'
 Vue.component('g-button',Button)
 Vue.component('g-icon',Icon)
 Vue.component('g-button-group',ButtonGroup)
+Vue.component('g-input',Input)
 new Vue({
     el:'#app',
     data(){
@@ -14,77 +16,3 @@ new Vue({
         }
     }
 })
-import chai from 'chai'
-import spies from 'chai-spies'
-chai.use(spies)
-const expect=chai.expect
-//单元测试
-{
-    //测试按钮含有icon
-    const Constructor=Vue.extend(Button)
-    const button=new Constructor({
-        propsData:{
-            icon:'setting'
-        }
-    })
-    //可以不mount到页面上，到内存中就可以了
-    button.$mount()
-    let useElement=button.$el.querySelector('use')
-    let href=useElement.getAttribute('xlink:href')
-    //期待href为#i-setting
-    expect(href).to.eq('#i-setting')
-    button.$el.remove()
-    button.$destroy()
-}
-{
-    //测试按钮有loading
-    const Constructor=Vue.extend(Button)
-    const button=new Constructor({
-        propsData:{
-            icon:'setting',
-            loading:true
-        }
-    })
-    button.$mount()
-    let useElement=button.$el.querySelector('use')
-    let href=useElement.getAttribute('xlink:href')
-    //期待href为#i-setting
-    expect(href).to.eq('#i-loading')
-    button.$el.remove()
-    button.$destroy()
-}
-{
-    //测试按钮icon的顺序是否正确
-    const div=document.createElement('div')
-    document.body.appendChild(div)
-    const Constructor=Vue.extend(Button)
-    const button=new Constructor({
-        propsData:{
-            icon:'setting',
-            iconPosition:'right'
-        }
-    })
-    button.$mount(div)
-    let svg=button.$el.querySelector('svg')
-    let {order}=window.getComputedStyle(svg)
-    //期待href为#i-setting
-    expect(order).to.eq('2')
-    button.$el.remove()
-    button.$destroy()
-}
-{
-    //mock  测试按钮的点击事件
-    const Constructor=Vue.extend(Button)
-    const gButton=new Constructor({
-        propsData:{
-            icon:'setting'
-        }
-    })
-    gButton.$mount()
-    let spy=chai.spy(()=>{})
-    gButton.$on('click',spy)
-    let button=gButton.$el
-    button.click()
-    //期待这个间谍被调用了
-    expect(spy).to.have.been.called()
-}
