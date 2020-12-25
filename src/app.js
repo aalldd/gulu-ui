@@ -12,7 +12,8 @@ new Vue({
     data(){
         return {
             loading1:true,
-            loading2:true
+            loading2:true,
+            message:'hi'
         }
     },
     methods:{

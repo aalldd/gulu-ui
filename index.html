@@ -51,9 +51,11 @@
             <g-button icon="right" icon-position="right">下一页</g-button>
         </g-button-group>
     </div>
-<!--    input-->
+    <!--    input-->
     <div>
         <g-input value="张三" @change="inputChange"></g-input>
+        <g-input value="张三" v-model="message"></g-input>
+        <p>{{message}}</p>
     </div>
     <div>
         <g-input value="李四" disabled></g-input>
