@@ -12,9 +12,11 @@
             padding: 0;
             box-sizing: border-box;
         }
-        img{
+
+        img {
             max-width: 100%;
         }
+
         html {
             --button-height: 32px;
             --font-size: 14px;
@@ -35,7 +37,7 @@
         }
     </style>
     <style>
-        .demoBox{
+        .demoBox,.demo {
             height: 50px;
             background-color: grey;
             border: 1px solid red;
@@ -113,6 +115,23 @@
         </g-row>
     </div>
     <br>
+<!--    响应式-->
+    <div style="border: 1px solid black;">
+        <g-row>
+            <g-col class="demo" :span="24" :ipad="{span:12}" :narrow-Pc="{span:8}">
+            </g-col>
+            <g-col class="demo" :span="24" :ipad="{span:12}" :narrow-Pc="{span:8}">
+            </g-col>
+            <g-col class="demo" :span="24" :ipad="{span:12}" :narrow-Pc="{span:8}">
+            </g-col>
+            <g-col class="demo" :span="24" :ipad="{span:12}" :narrow-Pc="{span:8}">
+            </g-col>
+            <g-col class="demo" :span="24" :ipad="{span:12}" :narrow-Pc="{span:8}">
+            </g-col>
+            <g-col class="demo" :span="24" :ipad="{span:12}" :narrow-Pc="{span:8}">
+            </g-col>
+        </g-row>
+    </div>
 </div>
 
 <script src="./src/app.js"></script>
