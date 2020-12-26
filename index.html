@@ -42,6 +42,10 @@
             background-color: grey;
             border: 1px solid red;
         }
+        .demo1{
+            border: 1px solid #666;
+            min-height: 100px;
+        }
     </style>
 </head>
 <body>
@@ -96,7 +100,17 @@
             </g-col>
         </g-row>
     </div>
-
+    <br>
+<!--    layout布局-->
+    <g-layout>
+        <g-header class="demo1">header</g-header>
+        <g-layout>
+            <g-sider class="demo1">sider</g-sider>
+            <g-content class="demo1">content</g-content>
+        </g-layout>
+        <g-content class="demo1">content</g-content>
+        <g-footer class="demo1">footer</g-footer>
+    </g-layout>
 </div>
 
 <script src="./src/app.js"></script>
