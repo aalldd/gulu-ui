@@ -69,10 +69,25 @@
     </div>
     <!--    栅格系统-->
     <br>
-    <div>
-        <g-row>
+    <div style="border: 1px solid black;">
+        <g-row gutter="20">
             <g-col>1123</g-col>
             <g-col>2321</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col>1123</g-col>
+            <g-col>2321</g-col>
+            <g-col>1123</g-col>
+            <g-col>2321</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col span="4">1123</g-col>
+            <g-col span="20">2321</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col span="4">1123</g-col>
+            <g-col span="2" offset="2">2321</g-col>
+            <g-col span="13" offset="3">2321</g-col>
         </g-row>
         <g-row>
             <g-col span="4">1123</g-col>
@@ -80,8 +95,12 @@
         </g-row>
         <g-row>
             <g-col span="4">1123</g-col>
-            <g-col span="4">2321</g-col>
-            <g-col span="16">2321</g-col>
+            <g-col span="20" offset="2">2321</g-col>
+        </g-row>
+        <g-row>
+            <g-col span="4">1123</g-col>
+            <g-col span="2" offset="2">2321</g-col>
+            <g-col span="13" offset="3">2321</g-col>
         </g-row>
     </div>
 </div>
