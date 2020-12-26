@@ -12,7 +12,9 @@
             padding: 0;
             box-sizing: border-box;
         }
-
+        img{
+            max-width: 100%;
+        }
         html {
             --button-height: 32px;
             --font-size: 14px;
@@ -30,6 +32,13 @@
 
         body {
             font-size: var(--font-size);
+        }
+    </style>
+    <style>
+        .demoBox{
+            height: 50px;
+            background-color: grey;
+            border: 1px solid red;
         }
     </style>
 </head>
@@ -103,6 +112,7 @@
             <g-col span="13" offset="3">2321</g-col>
         </g-row>
     </div>
+    <br>
 </div>
 
 <script src="./src/app.js"></script>
