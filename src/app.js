@@ -38,7 +38,15 @@ new Vue({
         inputChange(e){
             console.log(e.target.value)
         },
-        showToast(){
+        showToast1(){
+            this.showToast('top')
+        },
+        showToast2(){
+            this.showToast('middle')
+        },showToast3(){
+            this.showToast('bottom')
+        },
+        showToast(position){
             this.$toast('<strong>你的智商需要充值</strong>',{
                 enableHtml: true,
                 closeButton: {
@@ -49,7 +57,7 @@ new Vue({
                 },
                 autoClose:false,
                 autoCloseDelay: 3,
-                position:'bottom'
+                position:position
             })
         }
     }
