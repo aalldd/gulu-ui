@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90341506-cc1e-4278-b673-1bbecb1ec2e7" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    <list default="true" id="90341506-cc1e-4278-b673-1bbecb1ec2e7" name="默认更改列表" comment="添加toast和plugin">
+      <change beforePath="$PROJECT_DIR$/.idea/gulu-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gulu-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -49,7 +55,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -65,7 +72,11 @@
       <option name="presentableId" value="Default" />
       <updated>1608696068070</updated>
       <workItem from="1608696070722" duration="11019000" />
-      <workItem from="1608773211170" duration="12697000" />
+      <workItem from="1608773211170" duration="14084000" />
+      <workItem from="1608859216333" duration="20357000" />
+      <workItem from="1608946080272" duration="16798000" />
+      <workItem from="1608976323399" duration="1760000" />
+      <workItem from="1609033792707" duration="11383000" />
     </task>
     <task id="LOCAL-00001" summary="提交init vue">
       <created>1608709730573</created>
@@ -186,22 +197,139 @@
       <option name="project" value="LOCAL" />
       <updated>1608799825182</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="更新readme">
+      <created>1608860035679</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608860035679</updated>
+    </task>
+    <task id="LOCAL-00019" summary="更新package name">
+      <created>1608861746175</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608861746175</updated>
+    </task>
+    <task id="LOCAL-00020" summary="更新package name2">
+      <created>1608861890455</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608861890455</updated>
+    </task>
+    <task id="LOCAL-00021" summary="dist/index.js">
+      <created>1608862867450</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608862867450</updated>
+    </task>
+    <task id="LOCAL-00022" summary="更新package name">
+      <created>1608863836439</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608863836439</updated>
+    </task>
+    <task id="LOCAL-00023" summary="去除引入svg的步骤">
+      <created>1608865216648</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608865216648</updated>
+    </task>
+    <task id="LOCAL-00024" summary="添加input vue及其样式">
+      <created>1608881015303</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608881015303</updated>
+    </task>
+    <task id="LOCAL-00025" summary="添加input的测试用例">
+      <created>1608884515418</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608884515418</updated>
+    </task>
+    <task id="LOCAL-00026" summary="让input 支持v-model双向绑定">
+      <created>1608885891291</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608885891291</updated>
+    </task>
+    <task id="LOCAL-00027" summary="row和col的雏形完成">
+      <created>1608893668874</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1608893668874</updated>
+    </task>
+    <task id="LOCAL-00028" summary="基本实现了row和col的功能">
+      <created>1608949336876</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608949336876</updated>
+    </task>
+    <task id="LOCAL-00029" summary="添加row的align属性">
+      <created>1608951983195</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608951983195</updated>
+    </task>
+    <task id="LOCAL-00030" summary="响应式完成">
+      <created>1608970514182</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1608970514182</updated>
+    </task>
+    <task id="LOCAL-00031" summary="完成row的测试用例">
+      <created>1608973556095</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1608973556095</updated>
+    </task>
+    <task id="LOCAL-00032" summary="完成col的测试">
+      <created>1608974015829</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608974015829</updated>
+    </task>
+    <task id="LOCAL-00033" summary="完成col的测试用例">
+      <created>1608974059317</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1608974059317</updated>
+    </task>
+    <task id="LOCAL-00034" summary="创建layout相关的四个组件">
+      <created>1608976100505</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1608976100505</updated>
+    </task>
+    <task id="LOCAL-00035" summary="添加toast和plugin">
+      <created>1609038339176</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1609038339176</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交init vue" />
-    <MESSAGE value="完成按钮基本样式" />
-    <MESSAGE value="安装parcel" />
-    <MESSAGE value="加入 parcel 将button组件改为单文件组件" />
-    <MESSAGE value="不小心把dist和cache上传了，现在删掉" />
-    <MESSAGE value="添加icon和icon position属性" />
-    <MESSAGE value="验证iconPosition 为left或者right" />
-    <MESSAGE value="将svg代码整理到icon.vue" />
-    <MESSAGE value="添加click事件" />
     <MESSAGE value="创建button group" />
     <MESSAGE value="检测子元素是不是g-button" />
     <MESSAGE value="第一个元素不需要margin-left" />
@@ -210,28 +338,57 @@
     <MESSAGE value="使用chai 添加了四个测试用例，第五个不会" />
     <MESSAGE value="使用chai.spy 监听回调函数" />
     <MESSAGE value="使用npm test 和npm dev-test自动测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用npm test 和npm dev-test自动测试" />
+    <MESSAGE value="更新readme" />
+    <MESSAGE value="更新package name2" />
+    <MESSAGE value="dist/index.js" />
+    <MESSAGE value="更新package name" />
+    <MESSAGE value="去除引入svg的步骤" />
+    <MESSAGE value="添加input vue及其样式" />
+    <MESSAGE value="添加input的测试用例" />
+    <MESSAGE value="让input 支持v-model双向绑定" />
+    <MESSAGE value="row和col的雏形完成" />
+    <MESSAGE value="基本实现了row和col的功能" />
+    <MESSAGE value="添加row的align属性" />
+    <MESSAGE value="响应式完成" />
+    <MESSAGE value="完成row的测试用例" />
+    <MESSAGE value="完成col的测试" />
+    <MESSAGE value="完成col的测试用例" />
+    <MESSAGE value="创建layout相关的四个组件" />
+    <MESSAGE value="添加toast和plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加toast和plugin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1045" y="4" key="CommitChangelistDialog2" timestamp="1608799824206">
+    <state x="1279" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608975179064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1045" y="4" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608799824206" />
-    <state x="926" y="168" key="SettingsEditor" timestamp="1608776289186">
+    <state x="1279" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608975179064" />
+    <state x="1107" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1608976176547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="926" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608776289186" />
-    <state x="1033" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608778786486">
+    <state x="1107" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1608976176547" />
+    <state x="1045" y="4" key="CommitChangelistDialog2" timestamp="1609040019696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1033" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608778786486" />
+    <state x="1045" y="4" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609040019696" />
+    <state x="323" y="95" key="DiffContextDialog" timestamp="1609039946893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="323" y="95" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609039946893" />
+    <state x="473" y="175" key="SettingsEditor" timestamp="1608976289165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="473" y="175" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608976289165" />
+    <state x="1033" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609038341603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1033" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609038341603" />
     <state x="1054" y="100" width="771" height="845" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608776380386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1054" y="100" width="771" height="845" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608776380386" />
-    <state x="1107" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1608715613633">
+    <state x="1112" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1609039575497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1107" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608715613633" />
+    <state x="1112" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609039575497" />
   </component>
 </project>
