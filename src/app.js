@@ -39,7 +39,9 @@ new Vue({
             console.log(e.target.value)
         },
         showToast(){
-            this.$toast('我是message')
+            this.$toast('我是<strong>撒大声地我乔斯达所出现杂操作打啥撒撒大所大所大大所大所大所多撒写成程序正常展现出限制性处在撤销粗文字</strong>',{
+                enableHtml: false
+            })
         }
     }
 })
