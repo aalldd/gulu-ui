@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90341506-cc1e-4278-b673-1bbecb1ec2e7" name="默认更改列表" comment="添加toast和plugin">
-      <change beforePath="$PROJECT_DIR$/.idea/gulu-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gulu-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/row.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <workItem from="1608859216333" duration="20357000" />
       <workItem from="1608946080272" duration="16798000" />
       <workItem from="1608976323399" duration="1760000" />
-      <workItem from="1609033792707" duration="11383000" />
+      <workItem from="1609033792707" duration="12611000" />
     </task>
     <task id="LOCAL-00001" summary="提交init vue">
       <created>1608709730573</created>
@@ -323,14 +321,20 @@
       <option name="project" value="LOCAL" />
       <updated>1609038339176</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="toast支持多行文字">
+      <created>1609055438627</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1609055438627</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建button group" />
     <MESSAGE value="检测子元素是不是g-button" />
     <MESSAGE value="第一个元素不需要margin-left" />
     <MESSAGE value="删除测试代码" />
@@ -355,7 +359,8 @@
     <MESSAGE value="完成col的测试用例" />
     <MESSAGE value="创建layout相关的四个组件" />
     <MESSAGE value="添加toast和plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加toast和plugin" />
+    <MESSAGE value="toast支持多行文字" />
+    <option name="LAST_COMMIT_MESSAGE" value="toast支持多行文字" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1279" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608975179064">
@@ -366,10 +371,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1107" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1608976176547" />
-    <state x="1045" y="4" key="CommitChangelistDialog2" timestamp="1609040019696">
+    <state x="1045" y="4" key="CommitChangelistDialog2" timestamp="1609055438146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1045" y="4" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609040019696" />
+    <state x="1045" y="4" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609055438146" />
     <state x="323" y="95" key="DiffContextDialog" timestamp="1609039946893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -378,17 +383,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="473" y="175" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608976289165" />
-    <state x="1033" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609038341603">
+    <state x="1033" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609055440091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1033" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609038341603" />
+    <state x="1033" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609055440091" />
     <state x="1054" y="100" width="771" height="845" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608776380386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1054" y="100" width="771" height="845" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608776380386" />
-    <state x="1112" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1609039575497">
+    <state x="1114" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1609056006684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1112" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609039575497" />
+    <state x="1114" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609056006684" />
   </component>
 </project>

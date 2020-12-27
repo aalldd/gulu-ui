@@ -1,5 +1,5 @@
 <template>
-  <div class="toast" ref="toast">
+  <div class="toast" ref="toast" :class="toastClasses">
     <div class="message">
       <!--    这里为了能接受标签，不能用slot了-->
       <div v-html="$slots.default[0]" v-if="enableHtml"></div>
@@ -38,6 +38,18 @@ export default {
     enableHtml: {
       type: Boolean,
       default: false
+    },
+    position:{
+      type:String,
+      default:'top',
+      validator(value){
+        return ['top','button','middle'].indexOf(value)>=0
+      }
+    }
+  },
+  computed:{
+    toastClasses(){
+      return {[`position-${this.position}`]: true}
     }
   },
   mounted() {
@@ -78,7 +90,6 @@ $toast-min-height: 40px;
 $toast-bg: rgba(0, 0, 0, 0.74);
 .toast {
   position: fixed;
-  top: 0;
   left: 50%;
   transform: translateX(-50%);
   font-size: $font-size;
@@ -105,6 +116,18 @@ $toast-bg: rgba(0, 0, 0, 0.74);
   .line {
     border: .5px solid #666;
     margin-left: 16px;
+  }
+  &.position-top{
+    top: 0;
+    transform: translateX(-50%);
+  }
+  &.position-bottom{
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+  &.position-middle{
+    top: 50%;
+    transform: translate(-50%,-50%);
   }
 }
 

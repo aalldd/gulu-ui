@@ -39,8 +39,17 @@ new Vue({
             console.log(e.target.value)
         },
         showToast(){
-            this.$toast('我是<strong>撒大声地我乔斯达所出现杂操作打啥撒撒大所大所大大所大所大所多撒写成程序正常展现出限制性处在撤销粗文字</strong>',{
-                enableHtml: false
+            this.$toast('<strong>你的智商需要充值</strong>',{
+                enableHtml: true,
+                closeButton: {
+                    text:'已充值',
+                    callback(){
+                        console.log('他说已经充值智商了')
+                    }
+                },
+                autoClose:false,
+                autoCloseDelay: 3,
+                position:'bottom'
             })
         }
     }
